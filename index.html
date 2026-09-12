@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Untuk Nabila Inggit ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stars"></div>
+  <div class="hearts"></div>
+
+  <main>
+    <section class="hero" id="opening">
+      <div class="card opening-card">
+        <div class="tiny">a little message for you</div>
+        <div class="moon">♡</div>
+        <h1>Hi, Nabila Inggit.</h1>
+        <p class="subtitle">Ada sesuatu kecil yang ingin aku sampaikan di hari spesialmu.</p>
+        <button id="openBtn">Buka pesan ✨</button>
+      </div>
+    </section>
+
+    <section class="message hidden" id="message">
+      <div class="card letter">
+        <div class="date">12 • 09 • 2026</div>
+        <h2>Happy Birthday, Nabila Inggit ♡</h2>
+
+        <p>
+          Selamat bertambah usia, Nabila.
+          Tumbuh lebih baik yaa. Semoga di usia yang baru ini,
+          hal-hal baik selalu berpihak kepadamu dan setiap langkahmu
+          menuju masa depan dipermudahkan.
+        </p>
+
+        <p>
+          Teruslah melangkah, meskipun kadang jalannya tidak selalu mudah.
+          Tetaplah menjadi dirimu sendiri, tetap berbahagia, dan jangan
+          lupa menghargai setiap proses yang sudah kamu lewati.
+        </p>
+
+        <p>
+          Aku akan selalu bangga atas prosesmu—atas bagaimana kamu bertumbuh,
+          belajar, dan berusaha sampai sejauh ini.
+        </p>
+
+        <p>
+          Terima kasih sudah mau menjadi tempat untuk berbagi keluh dan kesah.
+          Semoga kebaikan yang kamu berikan kepada orang lain,
+          suatu hari nanti kembali kepadamu dalam bentuk kebahagiaan
+          yang jauh lebih besar.
+        </p>
+
+        <p class="closing">
+          Semoga tahun ini menjadi awal dari banyak hal baik yang menunggumu.
+          <br><br>
+          Be happy, Nabila. You deserve it. 🌷
+        </p>
+
+        <div class="signature">— someone who is always rooting for you ♡</div>
+
+        <button id="surpriseBtn">Satu pesan lagi... 🎁</button>
+      </div>
+    </section>
+
+    <section class="surprise hidden" id="surprise">
+      <div class="card surprise-card">
+        <div class="big-heart">♥</div>
+        <h2>Keep going.</h2>
+        <p>
+          Kalau suatu hari nanti semuanya terasa berat,
+          ingat bahwa kamu sudah berhasil melewati banyak hal
+          sampai berada di titik ini.
+        </p>
+        <p class="highlight">Jadi, teruslah melangkah dan berbahagialah. ✨</p>
+        <div class="confetti-text">HAPPY BIRTHDAY, NABILA! 🎂</div>
+      </div>
+    </section>
+  </main>
+
+  <div class="music-control" id="musicControl">
+    <button id="musicBtn" aria-label="Putar musik">♫</button>
+    <span id="musicText">Music</span>
+  </div>
+
+  <!--
+    MUSIK:
+    Letakkan file audio yang kamu miliki secara legal di:
+    assets/shape-of-my-heart.mp3
+
+    Karena browser biasanya memblokir autoplay, musik mulai
+    setelah tombol "Buka pesan" ditekan.
+  -->
+  <audio id="bgMusic" loop preload="auto">
+    <source src="assets/shape-of-my-heart.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
